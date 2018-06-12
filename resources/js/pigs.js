@@ -342,6 +342,7 @@ Pigs.pig2Stats = {
       console.log(this.armorUp);
       Tdamage *= (this.armorAbsorb /100);
       console.log(Tdamage);
+      Battle.addText(`<p>RoboPig 2's armor absorbed <span class="damage">${Tdamage} damage.</span></p>`);
     }
     this.hp -= Math.floor(Tdamage);
     if (this.hp < 0) {
