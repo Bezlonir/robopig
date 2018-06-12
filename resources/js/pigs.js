@@ -339,6 +339,7 @@ Pigs.pig2Stats = {
     var Tdamage = dam;
     if (this.armorUp > 0) {
       console.log(Tdamage);
+      console.log(this.armorUp);
       Tdamage *= (this.armorAbsorb /100);
       console.log(Tdamage);
     }
